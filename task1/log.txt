@@ -1,0 +1,12 @@
+$ git log
+commit aa87fd3837ae31a8b161d8bf1ac2892dffabb945 (HEAD -> master)
+Author: FursKonstantin <ky6ujlo@gmail.com>
+Date:   Mon Feb 12 17:40:46 2018 +0300
+
+    add status.txt
+
+commit b9d880f56297bb74baedcc0c6e36887ca27f346f
+Author: FursKonstantin <ky6ujlo@gmail.com>
+Date:   Mon Feb 12 17:29:39 2018 +0300
+
+    add .gitignore
