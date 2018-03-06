@@ -39,24 +39,24 @@ header{
 
 .Text{
     text-align: center;
-    margin: 2vw;
+    margin: 2vw 0 0 0;
     font-weight: bold;
     font-size: 1.5vw;
 }
 
-.MyName{
+li{
     display: inline-block;
-    width: 10%;
-    height: 50%;
-    margin: 0.5% 10%;
+    width: 30%;
+    height: 100%;
+    margin: 0 0;
     padding: 0;
 }
 
 .Exit{
     display: inline-block;
     width: 10%;
-    height: 50%;
-    margin: 0.5vw 10vw 0.5vw 0px;
+    height: 100%;
+    margin: 0 0 0 0px;
     padding: 0;
     text-decoration: none;
 }
@@ -258,6 +258,27 @@ section{
         font-weight: bold;
         font-size: 3vw;
     }
+
+    li{
+        float: left;
+        display: inline-block;
+        width: 30%;
+        height: 100%;
+        margin: 0 0;
+        padding: 0;
+    }
+
+
+    .Exit{
+        float: left;
+        display: inline-block;
+        width: 10%;
+        height: 100%;
+        margin: 0 0 0 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
 
     .Add{
         display: inline-block;
