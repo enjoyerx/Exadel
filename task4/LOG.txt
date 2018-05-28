@@ -1,0 +1,30 @@
+validatePhotoPost:
+	console.log(validatePhotoPost({}));
+	false
+	****
+	console.log(validatePhotoPost({author: '', description: '', createdAt: new Date(), hashTags: [], photoLink: '', id: ''}));
+	false
+	****
+	console.log(validatePhotoPost({author: 'I', description: '', createdAt: new Date(), hashTags: [], photoLink: 'fff', id: '3'}));
+	true
+	****
+	console.log(validatePhotoPost({author: 'I', description: '', createdAt: new Date(), hashTags: [3,4,5], photoLink: 'fff', id: '3'}));
+	false
+	****
+removePhotoPost:
+	ok
+editPhotoPost:
+	ok
+addPhotoPost:
+	ok
+getPhotoPost:
+	ok
+getPhotoPosts:
+	getPhotoPosts(0, 3, {author: 'Mask', hashTags: []});
+	+
+	getPhotoPosts(0, 2, {author: 'Kastet', hashTags: []});
+	+
+	getPhotoPosts(1, 2, {author: 'Kastet', hashTags: []});
+	+
+	getPhotoPosts(0, 5, {author: 'Exadel', hashTags: []});
+	+
